@@ -10,8 +10,14 @@ git remote add origin https://github.com/sagar-biswas1/test-repo-2.git
 git push -u origin main
 
 $ git config --global user.name "John Doe"
-$ git config --global user.email johndoe@example.com
+$ git config --global user.email "johndoe@example.com"
 
 
 
  git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
+
+ git branch sam
+ git checkout sam
+
+ git push --set-upstream origin sam
